@@ -1,0 +1,153 @@
+---
+Acrobat:
+  ability_item: 288:0:1:&bAcrobat &a| Click with this to use ability
+  cooldown: 15s
+  deactivate_time: -1s
+  helmet: "298:0:1:default:protection:1"
+  chest: "299:0:1:default:protection:1"
+  legs: "300:0:1:default:protection:1"
+  boots: "301:0:1:default:protection:1"
+  items:
+  - "272:0:1:default:sharpness:1"
+  - "297:0:64:default"
+  - "322:0:5:default"
+  commands:
+  - tell @player &5You equipped the @kit (level @level) kit.
+  effects:
+  - speed:4:107374182
+Araneidae:
+  ability_item: 375:0:1:&bAraneidae &a| Right click with this to use ability
+  cooldown: 30s
+  deactivate_time: 15s
+  helmet: "302:0:1:default:thorns:3"
+  chest: "303:0:1:default:protection:1:thorns:3"
+  legs: "304:0:1:default:thorns:3"
+  boots: "305:0:1:default:thorns:3"
+  items:
+  - "267:0:1:default:sharpness:1"
+  - "391:0:64:default"
+  - "322:0:10:default"
+  commands:
+  - tell @player &5You equipped the @kit (level @level) kit.
+  effects:
+  - speed:2:107374182
+  - strength:1:107374182
+  - night_vision:1:107374182
+Bartender:
+  ability_item: 437:0:1:&bBartender &a| Hit a player with this to use ability
+  cooldown: 30s
+  deactivate_time: -1s
+  helmet: "298:0:1"
+  chest: "0:0:0"
+  legs: "0:0:0"
+  boots: "301:0:1"
+  items:
+  - "268:0:1:default"
+  - "360:0:64:default"
+  - "322:0:1:default"
+  commands:
+  - tell @player &5You equipped the @kit (level @level) kit.
+  effects:
+  - speed:1:107374182
+Berserker:
+  ability_item: 286:0:1:&bBerserker &a| Right click this to use ability
+  cooldown: 30s
+  deactivate_time: 10s
+  helmet: "310:0:1:default:protection:1"
+  chest: "307:0:1:default:protection:1"
+  legs: "308:0:1:default:protection:1"
+  boots: "313:0:1:default:protection:1"
+  items:
+  - "279:0:1:default:sharpness:1"
+  - "364:0:64:default"
+  - "322:0:12:default"
+  - "466:1:1:default"
+  commands:
+  - tell @player &5You equipped the @kit (level @level) kit.
+  effects:
+  - speed:3:107374182
+  - strength:1:107374182
+Iceman:
+  ability_item: 79:0:1:&bIceman &a| Walk on water to activate ability
+  cooldown: 15s
+  deactivate_time: 10s
+  helmet: "310:0:1:default:protection:1"
+  chest: "315:0:1:default:protection:1"
+  legs: "316:0:1:default:protection:1"
+  boots: "313:0:1:default:protection:1"
+  items:
+  - "283:0:1:default:sharpness:2"
+  - "364:0:64:default"
+  - "322:0:4:default"
+  commands:
+  - tell @player &5You equipped the @kit (level @level) kit.
+  effects:
+  - speed:2:107374182
+Magneto:
+  ability_item: 318:0:1:&eMagneto &a| Right click this to use ability
+  cooldown: 30s
+  deactivate_time: -1s
+  helmet: "306:0:1:default:protection:1"
+  chest: "307:0:1:default:protection:1"
+  legs: "308:0:1:default:protection:1"
+  boots: "309:0:1:default:protection:1"
+  items:
+  - "267:0:1:default:sharpness:3"
+  - "322:0:6:default"
+  - "320:0:64:default"
+  commands:
+  - tell @player &5You equipped the @kit (level @level) kit.
+  effects:
+  - strength:2:107374182
+Scorpio:
+  ability_item: 399:0:1:&eScorpio &a| Right click this to use ability
+  cooldown: 15s
+  deactivate_time: 5s
+  helmet: "306:0:1:default:protection:1"
+  chest: "303:0:1:default:protection:1"
+  legs: "304:0:1:default:protection:1"
+  boots: "309:0:1:default:protection:1"
+  items:
+  - "267:0:1:default"
+  - "322:0:4:default"
+  - "320:0:64:default"
+  commands:
+  - tell @player &5You equipped the @kit (level @level) kit.
+  effects:
+  - strength:2:107374182
+  - speed:3:107374182
+Swapper:
+  ability_item: 501:0:1:&bSwapper &a| Right click on a player to use ability
+  cooldown: 20s
+  deactivate_time: -1s
+  helmet: "314:0:1:default:protection:1"
+  chest: "299:0:1:default:protection:1"
+  legs: "300:0:1:default:protection:1"
+  boots: "317:0:1:default:protection:1"
+  items:
+  - "268:0:1:default:sharpness:3"
+  - "322:0:3:default"
+  - "297:0:64:default"
+  commands:
+  - tell @player &5You equipped the @kit (level @level) kit.
+  effects:
+  - speed:2:107374182
+Thor:
+  ability_item: 369:0:1:&eThor &a| Right click this to use ability
+  cooldown: 40s
+  deactivate_time: 15s
+  helmet: "314:0:1:default:default:protection:3"
+  chest: "315:0:1:default:protection:3"
+  legs: "316:0:1:default:default:protection:3"
+  boots: "317:0:1:default:default:protection:3"
+  items:
+  - "276:0:1:default:sharpness:3"
+  - "322:0:10:default"
+  - "466:1:1:default"
+  - "320:0:64:default"
+  commands:
+  - tell @player &5You equipped the @kit (level @level) kit.
+  effects:
+  - strength:2:107374182
+  - speed:2:107374182
+...

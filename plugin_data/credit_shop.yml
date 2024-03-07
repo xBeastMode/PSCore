@@ -1,0 +1,49 @@
+- permission: "pv.infinite"
+  rebuy: true
+  name: "unlock one vault"
+  cost: 4
+  description: "&7Your credits: &f@credits\n&7Cost: &f@cost\n&7Rewards:\n&l&8» &r&7one vault"
+  commands:
+  - customitem @player vault 1
+- permission: "listings.infinite"
+  rebuy: true
+  name: "unlock one auction house listing"
+  cost: 4
+  description: "&7Your credits: &f@credits\n&7Cost: &f@cost\n&7Rewards:\n&l&8» &r&7one auction house listing"
+  commands:
+  - customitem @player listing 1
+- permission: "pocketmine.command"
+  rebuy: true
+  name: "essential commands pack"
+  cost: 20
+  description: "&7Your credits: &f@credits\n&7Cost: &f@cost\n&7Rewards:\n&l&8» &r&7fly command\n&l&8» &r&7god command\n&l&8» &r&7blacksmith command for free\n&l&8» &r&7clearinventory command&l&8» &r&7eat command\n&l&8» &r&7heal command"
+  commands:
+  - customitem @player essential_commands 1
+- permission: "pocketmine.command"
+  rebuy: true
+  name: "fun commands pack"
+  cost: 20
+  description: "&7Your credits: &f@credits\n&7Cost: &f@cost\n&7Rewards:\n&l&8» &r&7lsd command\n&l&8» &r&7nick command\n&l&8» &r&7hidename command\n&l&8» &r&7motion command\n&l&8» &r&7hat command\n&l&8» &r&7stackstick command\n&l&8» &r&7ridestick command\n&l&8» &r&7size command"
+  commands:
+  - customitem @player fun_commands 1
+- permission: "pocketmine.command"
+  rebuy: true
+  name: "ammo mag (125 rounds)"
+  cost: 1
+  description: "&7Your credits: &f@credits\n&7Cost: &f@cost\n&7Rewards:\n&l&8» &r&7125 round ammo mag"
+  commands:
+  - customitem @player ammo 125
+- permission: "pocketmine.command"
+  rebuy: true
+  name: "ammo mag (250 rounds)"
+  cost: 2
+  description: "&7Your credits: &f@credits\n&7Cost: &f@cost\n&7Rewards:\n&l&8» &r&7250 round ammo mag"
+  commands:
+  - customitem @player ammo 250
+- permission: "pocketmine.command"
+  rebuy: true
+  name: "ammo mag (500 rounds)"
+  cost: 4
+  description: "&7Your credits: &f@credits\n&7Cost: &f@cost\n&7Rewards:\n&l&8» &r&7500 round ammo mag"
+  commands:
+  - customitem @player ammo 500

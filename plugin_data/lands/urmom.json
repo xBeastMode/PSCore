@@ -1,0 +1,49 @@
+{
+    "min": [
+        227,
+        13,
+        239
+    ],
+    "max": [
+        267,
+        4,
+        281
+    ],
+    "modes": {
+        "damage": false,
+        "edit": false,
+        "touch": false,
+        "burn": false,
+        "explode": false,
+        "force_touch": true,
+        "force_edit": true,
+        "force_damage": true,
+        "force_burn": true
+    },
+    "world": "urmom",
+    "white_listed": [],
+    "extra_data": {
+        "portal": 1,
+        "armor_check": {
+            "check_enchantments": true,
+            "non_enchanted": "&l&6[!] &eEnchanted armor is not allowed!",
+            "required_gear": "&l&6[!] &ePlease equip the chain kit armor to enter.",
+            "armor": [
+                302,
+                303,
+                304,
+                305
+            ],
+            "action_delay": 100,
+            "title": "\u00a7l\u00a74EQUIP CHAIN ARMOR",
+            "subtitle": "You will be killed in \u00a74@seconds \u00a7fseconds"
+        },
+        "commands": {
+            "c": [
+                "title @player title \u00a7l\u00a7cPVP ZONE",
+                "title @player subtitle you entered a pvp zone"
+            ],
+            "p": []
+        }
+    }
+}

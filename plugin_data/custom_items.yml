@@ -1,0 +1,206 @@
+---
+credit:
+    claim_type: "commands"
+    item: "266:0:1:&r &l&6FREE CREDIT\n&r&l&7right click to claim:&r&l&cFOUND IN CRATES AND WARZONE."
+    tag: "credit"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &6Successfully claimed credit."
+    commands:
+    - addcredits @player @value
+vault:
+    claim_type: "commands"
+    item: "130:0:1:&r&l&5FREE VAULT UNLOCK\n&r&l&7right click to claim:&r&l&cFOUND IN CRATES AND WARZONE."
+    tag: "vault"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &5Successfully claimed free vault."
+    commands:
+    - unlockvault @player @value
+listing:
+    claim_type: "commands"
+    item: "339:0:1:&r &l&6FREE AUCTION HOUSE LISTING\n&r&l&7right click to claim:&r&l&cFOUND IN CRATES AND WARZONE."
+    tag: "listing"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &6Successfully claimed free auction house listing."
+    commands:
+    - listings @player add @value
+ammo:
+    claim_type: "commands"
+    item: "385:0:1:&r&l&6AMMO MAG\n&r&l&7right click to claim:&r&l&cOBTAINED FROM CREDIT SHOP."
+    tag: "ammo"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &6Successfully claimed ammo mag."
+    commands:
+    - weapon ammo @value @player
+basic_crate:
+    claim_type: "commands"
+    item: "54:0:1:&r&l&2BASIC CRATE\n&r&l&7right click to open:&r&l&cFOUND IN WARZONE."
+    tag: "basic_crate"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &2Successfully opened basic crate."
+    commands:
+    - crates open @player basic_crate
+op_crate:
+    claim_type: "commands"
+    item: "54:0:1:&r&l&4OP CRATE\n&r&l&7right click to open:&r&l&cFOUND IN WARZONE OR WEBSTORE §cb§6u§ey§a.§be§9u§5p§ch§6m§ec§a.§bn§9e§5t"
+    tag: "op_crate"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &4Successfully opened op crate."
+    commands:
+    - crates open @player op_crate
+vote_crate:
+    claim_type: "commands"
+    item: "54:0:1:&r&l&bVOTE CRATE\n&r&l&7right click to open:&r&l&cOBTAINED FROM VOTING"
+    tag: "vote_crate"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &bSuccessfully opened vote crate."
+    commands:
+    - crates open @player vote_crate
+exclusive_crate:
+    claim_type: "commands"
+    item: "54:0:1:&r&l&dEXCLUSIVE CRATE\n&r&l&7right click to open:&r&l&cFOUND IN WARZONE OR WEBSTORE §cb§6u§ey§a.§be§9u§5p§ch§6m§ec§a.§bn§9e§5t"
+    tag: "exclusive_crate"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &dSuccessfully opened exclusive crate."
+    commands:
+    - crates open @player exclusive_crate
+weapon_crate:
+    claim_type: "commands"
+    item: "54:0:1:&r&l&cWEAPON CRATE\n&r&l&7right click to open:&r&l&cFOUND IN WARZONE OR WEBSTORE §cb§6u§ey§a.§be§9u§5p§ch§6m§ec§a.§bn§9e§5t"
+    tag: "weapon_crate"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &cSuccessfully opened weapon crate."
+    commands:
+    - crates open @player weapon_crate
+boss_rewards:
+    claim_type: "inventory"
+    inventory_title: "&l&8PICK BOSS REWARD"
+    item: "130:0:1:&r&l&3BOSS REWARDS\n&r&l&7right click to claim:&r&l&cFOUND IN BOSS FIGHTS."
+    tag: "boss_rewards"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &3Successfully claimed boss rewards."
+    inventory:
+    - "i$11$276:0:1:&r&4&lThe Blood Seeker:&r&4&lTake the L:sharpness:5:lifesteal:1"
+    - "cmd$13$266:0:1:&r &l&610 credits:$addcredits @player 10"
+    - "cmd$15$339:0:1:&r&l&a5,000,000 &9cash:$givecash @player 25000000"
+essential_commands:
+    claim_type: "commands"
+    item: "54:0:1:&r&l&6ESSENTIAL COMMANDS PACK\n&r&l&7right click to open:&r&l&cOBTAINED FROM CREDIT SHOP"
+    tag: "essential_commands"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &6Successfully claimed essential commands pack."
+    commands:
+    - setuperm @player command.fly
+    - setuperm @player command.god
+    - setuperm @player command.ci
+    - setuperm @player command.eat
+    - setuperm @player command.heal
+    - setuperm @player command.blacksmith
+fun_commands:
+    claim_type: "commands"
+    item: "54:0:1:&r&l&6FUN COMMANDS PACK\n&r&l&7right click to open:&r&l&cOBTAINED FROM CREDIT SHOP"
+    tag: "fun_commands"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &6Successfully claimed fun commands pack."
+    commands:
+    - setuperm @player command.lsd
+    - setuperm @player command.nick
+    - setuperm @player command.hidename
+    - setuperm @player command.motion
+    - setuperm @player command.stackstick
+    - setuperm @player command.ridestick
+    - setuperm @player command.size
+    - setuperm @player command.hat
+mining_6:
+    claim_type: "commands"
+    item: "351:12:1:&r&l&bDOUBLE MINING POWERUP (6 hours)\n&r&l&7right click to claim:&r&l&cFOUND IN CRATES AND WARZONE."
+    tag: "mining_6"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &bSuccessfully claimed double mining powerup (6 hours)."
+    commands:
+    - addpu @player mining 6
+mining_12:
+    claim_type: "commands"
+    item: "351:14:1:&r&l&6DOUBLE MINING POWERUP (12 hours)\n&r&l&7right click to claim:&r&l&cFOUND IN CRATES AND WARZONE."
+    tag: "mining_12"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &6Successfully claimed double mining powerup (12 hours)."
+    commands:
+    - addpu @player mining 12
+mining_24:
+    claim_type: "commands"
+    item: "351:5:1:&r&l&dDOUBLE MINING POWERUP (24 hours)\n&r&l&7right click to claim:&r&l&cFOUND IN CRATES AND WARZONE."
+    tag: "mining_24"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &dSuccessfully claimed double mining powerup (24 hours)."
+    commands:
+    - addpu @player mining 24
+2_mining_6:
+    claim_type: "commands"
+    item: "351:12:1:&r&l&bTRIPLE MINING POWERUP (6 hours)\n&r&l&7right click to claim:&r&l&cFOUND IN CRATES AND WARZONE."
+    tag: "2_mining_6"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &bSuccessfully claimed triple mining powerup (6 hours)."
+    commands:
+    - addpu @player double_mining 6
+2_mining_12:
+    claim_type: "commands"
+    item: "351:12:1:&r&l&6TRIPLE MINING POWERUP (12 hours)\n&r&l&7right click to claim:&r&l&cFOUND IN CRATES AND WARZONE."
+    tag: "2_mining_12"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &6Successfully claimed triple mining powerup (12 hours)."
+    commands:
+    - addpu @player double_mining 12
+boss_3:
+    claim_type: "commands"
+    item: "351:5:1:&r&l&bBOSS REWARDS BOOSTER (3 hours)\n&r&l&7right click to claim:&r&l&cFOUND IN CRATES AND WARZONE."
+    tag: "boss_3"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &bSuccessfully claimed boss rewards booster (3 hours)."
+    commands:
+    - addpu @player boss 3
+boss_6:
+    claim_type: "commands"
+    item: "351:5:1:&r&l&bBOSS REWARDS BOOSTER (6 hours)\n&r&l&7right click to claim:&r&l&cFOUND IN CRATES AND WARZONE."
+    tag: "boss_6"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &6Successfully claimed boss rewards booster (6 hours)."
+    commands:
+    - addpu @player boss 6
+haste_30:
+    claim_type: "commands"
+    item: "373:0:1:&r&l&bHASTE EFFECT @value (30 minutes)\n&r&l&7right click to claim:&r&l&cFOUND IN CRATES AND WARZONE."
+    tag: "haste_30"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &bSuccessfully claimed haste effect (30 minutes)."
+    commands:
+    - effect @player haste 1800 @value
+haste_60:
+    claim_type: "commands"
+    item: "373:0:1:&r&l&dHASTE EFFECT @value (60 minutes)\n&r&l&7right click to claim:&r&l&cFOUND IN CRATES AND WARZONE."
+    tag: "haste_60"
+    tag_type: "IntTag"
+    value: "any"
+    message: "&l&9» &dSuccessfully claimed haste effect (60 minutes)."
+    commands:
+    - effect @player haste 3600 @value
+...

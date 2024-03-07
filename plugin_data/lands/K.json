@@ -1,0 +1,27 @@
+{
+    "min": [
+        216,
+        64,
+        229
+    ],
+    "max": [
+        194,
+        42,
+        207
+    ],
+    "modes": {
+        "damage": false,
+        "edit": false,
+        "touch": false,
+        "burn": false,
+        "explode": false
+    },
+    "world": "K",
+    "white_listed": [],
+    "extra_data": {
+        "mine": 1,
+        "blocks": {
+            "236:12": 100
+        }
+    }
+}

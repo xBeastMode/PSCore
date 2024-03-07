@@ -1,0 +1,5 @@
+{
+    "require": {
+        "illuminate/database": "^v8.76.2"
+    }
+}

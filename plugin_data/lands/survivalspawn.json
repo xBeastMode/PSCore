@@ -1,0 +1,22 @@
+{
+    "min": [
+        886,
+        0,
+        254
+    ],
+    "max": [
+        6,
+        226,
+        782
+    ],
+    "modes": {
+        "damage": false,
+        "edit": false,
+        "touch": true,
+        "burn": false,
+        "explode": false
+    },
+    "world": "survival",
+    "white_listed": [],
+    "extra_data": []
+}

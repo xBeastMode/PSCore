@@ -1,0 +1,96 @@
+---
+data_provider:
+  driver: mysql
+  host: localhost
+  database: mcdb
+  username: root
+  password: "Wordwall0"
+#  driver: mysql
+#  host: play.euphmc.net
+#  database: mcdb
+#  username: eupdb
+#  password: "&vhEq^JhjBVa1rlo"
+mines:
+  reset_time: 1800
+  auto_reset: false
+  auto_reset_time: 60
+auth:
+  enable: false
+  login_timeout_seconds: 15
+optimizer:
+  enable: true
+  optimizing_tick_seconds: 600
+broadcaster:
+  enable: true
+  interval_seconds: 120
+restarter:
+  time: 14400
+  broadcast_time: 1800
+  enable: true
+anti_spam:
+  time: 1
+statistics:
+  kills: "&l&g@place &7@player\n&g@value &7kills\n@status"
+  deaths: "&l&g@place &7@player\n&g@value &7deaths\n@status"
+  money: "&l&g@place &7@player\n&g@value &7money\n@status"
+  level: "&l&g@place &7@player\n&7prestige &g@value\n@status"
+  play_time: "&l&g@place &7@player\n&7play time &g@value\n@status"
+  bosses_killed: "&l&g@place &7@player\n&7bosses killed &g@value\n@status"
+teleport:
+  home_delay: 3
+  spawn_delay: 3
+  teleport_delay: 3
+  back_delay: 3
+  warp_delay: 3
+  max_homes: 2
+op_help_format: "&l&4[HELP] &c@player &8» &c@explanation"
+combat_logger:
+  time: 25
+attack_cooldown: 10
+power_ups:
+  double_mine_booster: 80000
+  triple_mine_booster: 160000
+  boss_reward_booster: 200000
+  flight_power_up: 50000
+  crate_key_drop_booster: 2500000
+log_spam: false
+wild_worlds:
+- survival
+wild_bounds: 9500
+ct_allowed_commands:
+- /ct
+auto_sell_worlds:
+  "A": true
+  "B": true
+  "C": true
+  "D": true
+  "E": true
+  "F": true
+  "G": true
+  "H": true
+  "I": true
+  "J": true
+  "K": true
+  "L": true
+  "M": true
+  "N": true
+  "O": true
+  "P": true
+  "Q": true
+  "R": true
+  "S": true
+  "T": true
+  "U": true
+  "V": true
+  "W": true
+  "X": true
+  "Y": true
+  "Z": true
+disabled_entities: []
+command_cooldown:
+  - command: "land resetempty"
+    cooldown: 30
+    type: global
+    message: "&b[!] &fcannot reset mine again for &b@time &fseconds."
+lock_cash: true
+...

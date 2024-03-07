@@ -1,0 +1,89 @@
+---
+per_world_inventory: false
+# @saved for last inventory saved in that world
+# @clear for a clear inventory
+# @linked for linked inventories between worlds
+world_inventory_type:
+  urmom: "@saved"
+world_time:
+  urmom: 20000
+blocked_commands:
+  A:
+    - sethome
+    - tphere
+  B:
+    - sethome
+    - tphere
+  C:
+    - sethome
+    - tphere
+  D:
+    - sethome
+    - tphere
+  E:
+    - sethome
+    - tphere
+  F:
+    - sethome
+    - tphere
+  G:
+    - sethome
+    - tphere
+  H:
+    - sethome
+    - tphere
+  I:
+    - sethome
+    - tphere
+  J:
+    - sethome
+    - tphere
+  K:
+    - sethome
+    - tphere
+  L:
+    - sethome
+    - tphere
+  M:
+    - sethome
+    - tphere
+  N:
+    - sethome
+    - tphere
+  O:
+    - sethome
+    - tphere
+  P:
+    - sethome
+    - tphere
+  Q:
+    - sethome
+    - tphere
+  R:
+    - sethome
+    - tphere
+  S:
+    - sethome
+    - tphere
+  T:
+    - sethome
+    - tphere
+  U:
+    - sethome
+    - tphere
+  V:
+    - sethome
+    - tphere
+  W:
+    - sethome
+    - tphere
+  X:
+    - sethome
+    - tphere
+  Y:
+    - sethome
+    - tphere
+  Z:
+    - sethome
+    - tphere
+...

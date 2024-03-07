@@ -1,0 +1,337 @@
+---
+player:
+    join: "&l&a @player"
+    leave: "&l&c @player"
+restarter:
+  restart_message: '&l&8» &eServer restarting...'
+  time_message: '&l&8» &eRestarting server in &6@hoursh, @minutesm, @secondss.'
+  count_down_message: '&l&8» &eRestarting in &6@seconds&e...'
+  restart_time: '&l&8» &eRestart time: &6@hoursh, @minutesm, @secondss.'
+broadcaster_messages:
+  - "&6[!] &eWe have recently released a big update alongside reset, please note there may be bugs!"
+chat_protector:
+  no_spam: '&l&6[!] &ePlease chat a little slower, others want to chat too.'
+  no_swear: '&l&4[!] &cYour message contains an unwanted word.'
+  muted: '&l&6[!] &eYou have been muted &6@time &efor: &6@reason&e.'
+  still_muted: '&l&6[!] &eYou are still muted for: &6@reason&e.'
+  unmuted: '&l&2[!] &aYou have been unmuted.'
+land_protector:
+  select_first_position: '&l&6[!] &ePlease select first position (touch or break).'
+  select_second_position: '&l&6[!] &ePlease select second position (touch or break).'
+  added_land_success: '&l&2[!] &aSuccessfully added land &2@land&a.'
+  select_positions_first: '&l&6[!] &ePlease select both positions before creating a land.'
+  missing_land_name: '&l&6[!] &ePlease enter a land name.'
+  missing_mode_name: '&l&6[!] &eMissing the mode name.'
+  mode_change_successful: '&l&2[!] &aSet land mode &2@mode &aof area &2@land &ato &2@bool&a.'
+  invalid_land_name: '&l&6[!] &eInvalid land name.'
+  invalid_bool_value: '&l&4[!] @land &cis not a value boolean, enter &4true &cor &4false&c.'
+  remove_land_success: '&2Successfully removed land ''@land'''
+  successful_selection_1: '&l&2[!] &aSuccessfully selected first position at: &2@x, @y, @z'
+  successful_selection_2: '&l&2[!] &aSuccessfully selected second position at: &2@x, @y, @z'
+  land_exists: '&l&4[!] @land &calready exists.'
+  missing_mode_bool: '&l&6[!] &ePlease enter a mode boolean: &4true &cor &4false&c.'
+  land_does_not_exist: '&l&4[!] @land &cdoes not exist.'
+  removed_land_success: '&l&2[!] &2@land &ahas been deleted.'
+  land_list: '&l&2[!] &aLand list: &2@land&a.'
+  land_list_here: '&l&2[!] &aLand list in your location: &2@list'
+combat_logger:
+  no_commands: '&l&6[!] &eYou cannot run this command while in combat!'
+  pvp_danger: '&l&4[!] &cYou are now in combat. Logging out will cause you to die.'
+  can_log_out: '&l&2[!] &aYou are now out of combat, you may log out.'
+  combat_time: '&l&6[!] &eTime left: &6@time'
+item_repair:
+  not_enough_funds: '&l&6[!] &eYou don''t have enough funds to repair this item.'
+  repaired_item_vip: '&l&2[!] &aSuccessfully repaired item!'
+  repaired_item: '&l&2[!] &aSuccessfully repaired item &2@item_name &afor &2$@cost&a.'
+  cannot_repair_item: '&l&2[!] &aThis item is not repairable.'
+  no_damage: '&l&2[!] &aThis item has no damage!'
+  cannot_rename_air: '&l&2[!] &aYou cannot rename air.'
+  rename_success: '&l&2[!] &aSuccessfully renamed item to: &2@name'
+levels:
+  level_up: '&l&8» &aWOW! &2@player &ajust prestiged up to &2@level&a!'
+  level_up_failed: '&l&6[!] &eprestige failed because you are either already max level or have not reached the required rank: &6@rank'
+  deposit_cash: '&l&6[!] &ePlease deposit all your cash before you prestige!'
+  receive_mining_crate: '&l&8» &2@player &ajust found a prestige &2@level &ecrate key while mining!'
+  receive_crate: '&l&8» &2@player &ajust received a prestige &2@level &acrate key from killing someone!'
+  claim_crate: '&f[*] &a@player &fjust claimed a Prestige &e@level &fcrate!'
+  crate_on_cooldown: ' &fPlease wait, this crate is in cooldown!'
+  unsupported_level: ' &fThis crate does not support this key level.'
+  player_kills_set: '&l&2[!] &aSet &2@player''s &akills to &2@kills&a!'
+  player_deaths_set: '&l&2[!] &aSet &2@player''s &adeaths to &2@deaths&a!'
+  player_level_set: '&l&2[!] &aSet &2@player''s &aprestige to &2@level&a!'
+  player_stats: "&l&8» &7Your stats: &2@kills &akills &7- &4@deaths &cdeaths &7- &eprestige &g@level"
+  player_stats_other: "&l&8» &7@player's stats: &2@kills &akills &7- &4@deaths &cdeaths &7- &eprestige &g@level"
+  give_key: '&2Gave &6@player x@amount &2Prestige &6@level &2crate keys!'
+  player_offline: '&fThat player is not online.'
+  inventory_full: ' &fYour inventory is too full to claim this crate key.'
+  no_key: ' &fYou don''t have any keys to use.'
+  legendary_drop: '&l&a@player &fhas found a rare drop: &f@item'
+crates:
+    buy_crate: '&l&2[!] &aSuccessfully purchased &2@crate &acrate for &2$@cost&a!'
+    begin_spin: '&l&2[!] @player &ais spinning a &2@crate &acrate!'
+    end_spin: '&l&2[!] @player &ahas won &2@item &afrom a crate!'
+economy:
+  no_player: '&l&4[!] &cThat player is not registered in our economy.'
+  added_money: '&l&2[!] &aAdded &2$@money &ato &2@player''s &abalance&a!'
+  subtracted_money: '&l&2[!] &aSubracted &2$@money &afrom &2@player''s &abalance&a!'
+  non_numeric: '&l&4[!] &cEnter a valid number.'
+  too_little_money: '&l&6[!] &eCannot subtract that amount: &6player has too little money.'
+  payed_money: ' &l&aPayed &2$@money &ato &2@player&a!'
+  withdraw_success: ' &l&aSuccessfully withdrew &2$@money &acash&a!'
+  deposit_success: ' &l&aSuccessfully deposited &2$@money &acash&a!'
+  set_money: '&l&2[!] &aSet &2@player''s &abalance to &2$@money&a!'
+  purchase_credit: " &l&aSuccessfully purchased credit&a!"
+  added_money_notification: " &l&2+$@money &awas added to your account&a!"
+  subtracted_money_notification: " &l&4-$@money &cwas taken from your account!"
+  set_money_notification: " &l&aYour money was set to &2$@money&a!"
+  add_cash_notification: " &l&2+$@money &acash was given to you&a!"
+  payed_money_notification: " &l&2@player &apayed you &2$@money&a!"
+credits:
+  no_player: '&l&4[!] &cThat player is not registered in our economy.'
+  added_credits: '&l&2[!] &aAdded &2@money &acredits to &2@player''s &abalance&a!'
+  subtracted_credits: '&l&2[!] &aSubracted &2@money &acredits from &2@player''s &abalance&a!'
+  non_numeric: '&l&6[!] &ePlease enter a valid number.'
+  too_little_credits: '&l&6[!] &eCannot subtract that amount: &6player has too little credits.'
+  my_balance: ' &l&aYour balance: &2@credits &acredits'
+  player_balance: ' &l&2@player''s &abalance: &2@credits &acredits'
+  set_credits: '&l&2[!] &aSet &2@player''s &abalance to &a@credits&a!'
+  added_credits_notification: " &l&2+$@credits &acredits were added to your account&a!"
+  subtracted_credits_notification: " &l&4-$@credits &ccredits were taken from your account!"
+  set_credits_notification: " &l&aYour credits were set to &2$@credits&a!"
+shop:
+  cannot_have_air: '&l&4[!] &cCannot add air to the shop.'
+  enter_valid_price: '&l&6[!] &ePlease enter a valid item price.'
+  added_item: '&l&2[!] &aSuccessfully added &2@item (x@amount) &afor &2$@price&a!'
+  no_items: '&l&6[!] &eNo items available under this category.'
+  non_sufficient_funds: '&l&6[!] &eSorry, you do not have enough money to buy this item.'
+  inventory_full: '&l&6[!] &eYou do not have enough space in your inventory to buy this item!'
+  bought_item: '&l&2[!] &aSuccessfully bought &2@item (x@amount) &afor &2$@price&a!'
+  invalid_item: '&l&4[!] &cThis item has been removed from shop.'
+  removed_item: '&l&2[!] &aSuccessfully removed item from shop!'
+kits:
+  claim_message: '&l&2[!] &aKit claimed. Claim again in: &2@daysd, @hoursh, @minutesm, @secondss'
+  no_items: '&l&6[!] &eError: no items were found in the kit. Please contact staff.'
+  no_space: '&l&6[!] &ePlease make space space in your inventory to add your kit items.'
+  cooldown: '&l&6[!] &eKit on cooldown: &6@daysd, @hoursh, @minutesm, @secondss'
+  unknown_kit: '&l&4[!] &cKit not found.'
+  no_permission: '&l&6[!] &eYou do not have permission to claim this kit.'
+vaults:
+  invalid_vault_number: '&l&6[!] &eInvalid vault number, must be greater than zero.'
+  no_vault_permission: '&l&4[!] &cYou do not have that vault unlocked.'
+  max_vaults: '&l&6[!] &eYou have unlocked the max number of vaults possible.'
+  vault_unlocked: '&l&2[!] &aYou have unlocked vault &2#@number&a!'
+ranks:
+  non_sufficient_funds: '&l&4[!] &cYou do not have enough money to rank up.'
+  already_highest_rank: '&l&6[!] &eYou are already at the highest possible rank.'
+  ranked_up: '&l&2[!] &aYay! &2@player &ahas ranked up to &2@rank&a!'
+  invalid_rank_name: '&l&4[!] &cCannot set rank to player: &4invalid rank name given&c.'
+  set_rank: '&l&2[!] &aSuccessfully set &2@player''s &arank to &2@rank&a!'
+  player_not_found: '&l&4[!] &cThat player is not registered in our rank system.'
+  player_rank: '&l&2[!] @player''s &arank: &2@rank'
+enchants:
+  cannot_enchant_air: ' &fSorry, you can''t enchant this item.'
+  already_enchanted: ' &fWait, that item already has &a@enchant &flevel &a@level'
+  not_enough_money: |-
+     &fYou don't have enough to purchase this enchant.
+    &fEnchant cost: &a$@cost
+    &fYou have: &a$@money
+  bought_enchantment: ' &fSuccessfully bought enchantment &a@enchant &flevel
+    &a@level &ffor &a$@cost!'
+  cannot_unenchant_air: ' &fCannot remove enchantment from air =('
+  removed_enchant: ' &fSuccessfully removed enchantment &a@name'
+  no_enchants_found: ' &fNo enchantments found for this item.'
+  cannot_merge_air: ' &fSorry, you can''t merge this item. Please hold enchanted book.'
+  not_books_found: ' &fNo books to merge found.'
+  merge_success: ' &fSuccessfully batched books'
+  merge_fail: ' &fBatch failed'
+  cannot_apply_air: ' &fPlease hold enchanted book.'
+  apply_success: ' &fSuccessfully assembled enchantments'
+  apply_fail: ' &fAssemble failed'
+  no_apply_enchants_found: ' &fNo enchantments found for this item. Please hold enchanted book.'
+  no_compatible_items:  ' &fNo compatible items found for this enchanted book.'
+  replicate_success: ' &fSuccessfully facsimiled book'
+  replicate_fail: ' &fFacsimile failed'
+sell_all:
+  sold_all: '&l&2[!] &aSuccessfully sold &2@items &afor &2$@price&a!'
+  sold_tip: '&l&8» &2$@money &a+ &2$@price &acash'
+mines:
+  set_mine_success: '&l&2[!] &aLand &2@land &ais now a mine!'
+  removed_mine: '&l&2[!] &aLand &2@land &ais no longer a mine!'
+  mine_reset_start: '&l&8» &eMine &6@mine &eis resetting!'
+  mine_reset_completion: '&l&8» &aMine &2@mine &ahas finished resetting!'
+  mine_does_not_exist: '&l&8» &cMine &4@mine &cdoes not exist!'
+  all_mine_reset_start: '&l&8» &eAll mines are resetting!'
+  all_mine_reset_completion: '&l&8» &aAll mines are finished resetting!'
+  land_does_not_exist: '&l&4[!] &cThat land does not exist!'
+  mine_not_empty: '&l&8» &cThat mine is not empty!'
+LSD:
+  enabled: '&l&8» &6LSD &eis now enabled'
+  disabled: '&l&8» &6LSD &cis now disabled'
+God:
+  enabled: '&l&8» &6godmode &eis now enabled'
+  disabled: '&l&8» &6godmode &cis now disabled'
+nicks:
+  reset_nick: '&l&2[!] &aYour nick has been reset.'
+  cannot_reset: '&l&4[!] &cYou do not have a nick set.'
+  set_nick: '&l&2[!] &aYour nick has been changed to &2@nick&a.'
+stones:
+  stone_exists: '&l&6[!] &eA stone with that name already exists.'
+  stone_place_cancel: '&l&2[!] &aStone place cancelled.'
+  invalid_name: '&l&4[!] &cInvalid stone name.'
+  not_enough_money: |-
+    &l&6[!] &eYou don't have enough to place this stone.
+    &eStone cost: &6$@cost
+    &eYou have: &6$@money
+  stone_placed: '&l&2[!] &aStone &2@name &aplaced at &2@x, @y, @z &awith &2@size &ablock
+    protection!'
+  stone_deleted: '&l&2[!] &aStone &2@name &ahas been permanently deleted.'
+  no_stones: '&l&4[!] &cYou do not have stones to manage.'
+  ownership_transferred: '&l&2[!] &aOwnership of &2@name &ahas been transferred to &2@player&a!'
+  added_helper: '&l&2[!] &aAdded &2@player &aas helper of &2@name&a!'
+  removed_helper: '&l&2[!] &aRemoved &2@player &afrom helpers of &2@name&a!'
+  bounds_intersect: '&l&4[!] &cCannot place stone: bounds intersect with stone not owned by you.'
+portals:
+  set_portal_success: '&l&2[!] Land &a@portal &2is now a portal!'
+  land_does_not_exist: '&l&6[!] &eThat land does not exist!'
+  no_permission: '&l&4[!] &cYou don''t have permission to enter this area'
+  removed_portal: '&l&2[!] Land &a@portal &2is no longer a portal!'
+  portal_does_not_exist: '&l&6[!] Portal &e@portal &6does not exist!'
+  set_restricted_success: '&l&2[!] Portal &a@portal &2is now restricted!'
+  unset_restricted_success: '&l&2[!] Portal &a@portal &2is no longer restricted!'
+settings:
+  settings_changed: '&l&2[!] Your settings have been saved!'
+bosses:
+  invalid_args: '&l&4[!] &cThe size, level and respawn period must be greater than 0.'
+  boss_added: '&l&2[!] &aBoss &2@name &aadded!'
+  respawn_message: '&l&2[!] &aBoss &2@name &ahas respawned!'
+  kill_message: |-
+    &l&a@name has been defeated.
+    &l&a@player &fdealt the most damage: &a@damage&f/&a@max &f(&a@percent &fpercent) hit points!
+  boss_removed: '&l&4[!] &cBoss &4@name &cremoved!'
+  boss_spawned: '&l&2[!] &aBoss &2@name &aspawned!'
+  unknown_boss: '&l&4[!] &cThat boss does not exist.'
+spawners:
+  bought_spawner: ' &fSuccessfully bought &a@spawner Spawner &ffor &a$@cost&f!'
+  cannot_add_item: ' &fYour inventory is too full, please make space.'
+  not_enough_money: |-
+    &l&6[!] &eYou don't have enough to purchase this spawner.
+    &eSpawner cost: &6$@cost
+    &eYou have: &6$@money
+credit_shop:
+  non_sufficient_funds: '&l&4[!] &cYou do not have sufficient credits to purchase this.'
+  item_purchased: '&l&2[!] &aYou have purchased &2@name &afor &2@cost &acredits!'
+ignore:
+  ignore_start: '&l&8» &aYou are now ignoring &2@player&a. You will no longer see their messages.'
+  ignore_stop: '&l&8» &eYou are no longer ignoring &6@player&a. You will now see their messages.'
+directions:
+  inventory_full: '&l&6[!] &ePlease make space in your inventory so you can receive a direction compass.'
+  directions_start: '&l&8» &aYou are now getting directions to &2@direction&a!'
+  destination_reached: '&l&8» &aYou have reached your destination!'
+hats:
+  not_wearable: '&l&4[!] &cThat item not wearable.'
+  enabled: '&l&8» &2@player &ais now wearing &2@item'
+  disabled: '&l&8» &2@player &ais no longer wearing a hat'
+optimizer:
+  pre_warning: '&l&8» &eItems will clear in &6@seconds &eseconds!'
+  post_warning: '&l&8» &cAll items have been cleared.'
+power_ups:
+  activated: '&l&2[!] @name &ahas been activated for &2@time &ahours!'
+  purchased: '&l&2[!] &aYou have purchased a &2@name (@time hours) &afor &2$@cost&a!'
+  expired: '&l&2[!] &aYour &2@name &ahas expired.'
+casino:
+  won_slot_machine: "&l&2[!] @player &ahas won the &2@machine &aslot machine!"
+  lost_slot_machine: "&l&2[!] @player &ahas lost the &2@machine &aslot machine :("
+  won_cash_flip: "&l&2[!] @player &ahas won &2$@money &aon cash flip!"
+death_messages:
+  contact:
+  - "&l&8» &c@player &fhad a blocky death."
+  - "&l&8» &c@player &fundestimated &c@block"
+  entity_attack:
+  - "&l&8» &c@player &fgot popped by &c@entity"
+  player_attack:
+  - "&l&8» &c@player &fgot popped by &c@entity &f[@item&r&f]"
+  projectile:
+  - "&l&8» &c@entity &fsniped &c@player"
+  player_projectile:
+  - "&l&8» &c@entity &f[@item&r&f] sniped &c@player"
+  - "&l&8» &c@entity &f[@item&r&f] no-scoped &c@player"
+  - "&l&8» &c@entity &f[@item&r&f] head-shotted &c@player"
+  suffocation:
+  - "&l&8» &fEven the walls wanted &c@player &fdead"
+  - "&l&8» &c@player's &fescape tunnel caved in"
+  - "&l&8» &c@player &fforgot to never dig straight up"
+  - "&l&8» &c@player &fcommitted absence of air"
+  fall:
+  - "&l&8» &c@player &fforgot how to fly"
+  - "&l&8» &c@player &fthought they could walk on clouds"
+  - "&l&8» &c@player &fforgot to power up their jet-pack"
+  fire:
+  - "&l&8» &c@player &fgot roasted to death"
+  fire_tick:
+  - "&l&8» &c@player &fgot roasted to death"
+  lava:
+  - "&l&8» &c@player &fthought they could sail in lava"
+  - "&l&8» &c@player &fbecame one with the lava"
+  drowning:
+  - "&l&8» &c@player &fthought they were a fish"
+  - "&l&8» &c@player &fgot too much H2O in their lungs"
+  - "&l&8» &c@player &fgrew up to be a fish"
+  - "&l&8» &c@player &fswam too deep"
+  - "&l&8» &c@player &fneeds to check their bubbles next time"
+  block_explosion:
+  - "&l&8» &c@player's &fleg went boom, anyone have it?"
+  - "&l&8» &c@player's &fwas a victim of a kamikaze"
+  entity_explosion:
+  - "&l&8» &c@player's &fleg went boom, anyone have it?"
+  - "&l&8» &c@player's &fwas a victim of a kamikaze"
+  void:
+  - "&l&8» &c@player &fwas yeeted into the void"
+  - "&l&8» &fThe void came to fetch &c@player's &fsoul"
+  - "&l&8» &c@player &fentered t h e  v o i d"
+  - "&l&8» &c@player &ffell into the rivers of t h e  u n d e r w o r l d"
+  suicide:
+  - "&l&8» &c@player &fwas yeeted out of existence"
+  - "&l&8» &c@player &ftook the easy way out"
+  - "&l&8» &c@player &fcommitted goodbye, cruel world!"
+  magic:
+  - "&l&8» &c@player &fhad their toes eaten"
+  - "&l&8» &c@player &fmixed the wrong chemicals"
+  custom: []
+  starvation:
+  - "&l&8» &c@player &fforgot to eat their bread"
+command_lock:
+  casino: "&l&4[!] &cCommand featured locked. To use casino go to the casino NPC at spawn."
+  bank: "&l&4[!] &cCommand featured locked. To use casino go to the bank NPC at spawn."
+  blacksmith: "&l&4[!] &cCommand featured locked. To use casino go to the blacksmith NPC at spawn."
+  settings: "&l&4[!] &cCommand featured locked. To use casino go to the settings NPC at spawn."
+  directions: "&l&4[!] &cCommand featured locked. To use casino go to the directions NPC at spawn."
+  crates: "&l&4[!] &cCommand featured locked. To use casino go to the crates NPC at spawn."
+  credit_shop: "&l&4[!] &cCommand featured locked. To use casino go to the credit shop NPC at spawn."
+  power_ups: "&l&4[!] &cCommand featured locked. To use casino go to the power-ups NPC at spawn."
+  shop: "&l&4[!] &cCommand featured locked. To use casino go to the shop NPC at spawn."
+management:
+  set_ability: "&l&2[!] &aSuccessfully bought ability &2@ability &afor &2@item &awith &2@units &aduration &afor &2$@cost&a."
+  remove_ability: "&l&2[!] &aSuccessfully removed &2@item's &aability."
+  set_enchantment: "&l&2[!] &aSuccessfully bought enchantment &2@enchantment &alevel &2@level &afor &2@item &r&l&afor &2$@cost&a."
+  unlock_slot: "&l&2[!] &aSuccessfully unlocked slot for &2$@cost&a."
+  upgrade_slot: "&l&2[!] &aSuccessfully upgraded &2@enchantment &aslot from level &2@last &ato level &2@level &afor &2@item &r&l&afor &2$@cost&a."
+  remove_slot: "&l&2[!] &aSuccessfully removed &2@enchantment &aslot from &2@item&a."
+recovery:
+  no_player: "&l&4[!] &cNo lost items found for that player."
+warzone:
+  added_zone: "&l&2[!] &aSuccessfully added zone &2@zone&a."
+  removed_zone: "&l&2[!] &aSuccessfully removed zone &2@zone&a."
+  respawned_crate: "&l&2[!] &aSuccessfully respawned loot crate."
+  respawned_crate_zone: "&l&2[!] &aSuccessfully respawned loot crate at zone &2@zone&a."
+  despawned_crate: "&l&2[!] &aSuccessfully despawned loot crate."
+  respawned_crate_fall: "&l&e  LOOT CRATE\nIS FALLING!\nZONE &c@zone"
+  respawned_crate_land: "&l&e  LOOT CRATE\nHAS LANDED!\nZONE &c@zone"
+worlds:
+  command_blocked: "&l&4[!] &cThat command is not allowed here!"
+welcome:
+  title: "&l&6PRISON\n&eSEASON 2"
+  subtitle: "&lWelcome, have an amazing time!"
+borders:
+  reached: "§l§6[!] §eYou reached the world border."
+  cannot_teleport: "§l§4[!] §cTeleported to spawn: bypassed world border."
+...

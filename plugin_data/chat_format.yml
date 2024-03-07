@@ -1,0 +1,30 @@
+---
+chat_format:
+  Guest:
+    chat: "&7@rank:@level &f@player &l&8»&r &7@message"
+    display: "&7@player"
+  Member:
+    chat: "&9@rank:@level &f@clan &9@group &f@player &l&a»&r &f@message"
+    display: "&9@player"
+  OP:
+    chat: "&3@rank:@level &f@clan &3@group &b@player &l&a»&r &f@message"
+    display: "&b@player"
+  Mod:
+    chat: "&2@rank:@level &f@clan &2@group &f@player &l&a»&r &f@message"
+    display: "&a@player"
+  Builder:
+    chat: "&5@rank:@level &f@clan &5@group &f@player &l&a»&r &f@message"
+    display: "&5@player"
+  Miner+:
+    chat: "&e@rank:@level &f@clan &eMiner&g+ &f@player &l&a»&r &f@message"
+    display: "&e@player"
+  God:
+    chat: "&6@rank:@level &f@clan &6@group &f@player &l&a»&r &f@message"
+    display: "&6@player"
+  Knight:
+    chat: "&g@rank:@level &f@clan &g@group &f@player &l&a»&r &f@message"
+    display: "&g@player"
+  Warrior:
+    chat: "&c@rank:@level &f@clan &c@group &f@player &l&a»&r &f@message"
+    display: "&c@player"
+...

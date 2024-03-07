@@ -1,0 +1,54 @@
+---
+max_casino_wins: 3
+next_play_time: 86400
+cash_flip:
+  increase: 10000
+  maximum: 100000
+  initial_percentage: 10
+  percentage_increase: 10
+  maximum_percentage: 50
+slot_machines:
+  - name: Solar
+    description: "cheap price, ok rewards"
+    rewards: "\n&l&8» &r&7Gold = 100,000 cash\n&l&8» &r&7Iron = 2 credits\n&l&8» &r&7Diamond = x32 enchanted apples\n&l&8» &r&7Emerald = 24 hour triple mining booster (x2)\n&l&8» &cmake sure you have enough inventory space.&f"
+    cost: 25000
+    items:
+      - 41:0:1:default::protection:1
+      - 42:0:1:default::protection:1
+      - 57:0:1:default::protection:1
+      - 133:0:1:default::protection:1
+    commands:
+      - givecash @player 100000
+      - addcredits @player 2
+      - give @player 466 32
+      - addpu @player triple_mining 24 2
+  - name: Jubis
+    description: "ok price, good rewards"
+    cost: 250000
+    rewards: "\n&l&8» &r&7Gold = 1,000,000 cash\n&l&8» &r&7Iron = 4 credits\n&l&8» &r&7Diamond = x64 enchanted apples\n&l&8» &r&7Emerald = 24 hour triple mining booster (x4)\n&l&8» &cmake sure you have enough inventory space.&f"
+    items:
+      - 41:0:1:default::protection:1
+      - 42:0:1:default::protection:1
+      - 57:0:1:default::protection:1
+      - 133:0:1:default::protection:1
+    commands:
+      - givecash @player 1000000
+      - addcredits @player 4
+      - give @player 466 64
+      - addpu @player triple_mining 24 4
+  - name: Bliss
+    description: "expensive, great rewards"
+    chance: 33%
+    cost: 2500000
+    rewards: "\n&l&8» &r&7Gold = 10 million cash\n&l&8» &r&7Iron = 8 credits\n&l&8» &r&7Diamond = x128 enchanted apples\n&l&8» &r&7Emerald = 24 hour boss reward booster (x4)\n&l&8» &cmake sure you have enough inventory space.&f"
+    items:
+      - 41:0:1:default::protection:1
+      - 42:0:1:default::protection:1
+      - 57:0:1:default::protection:1
+      - 133:0:1:default::protection:1
+    commands:
+      - givecash @player 10000000
+      - addcredits @player 8
+      - give @player 466 128
+      - addpu @player boss 24 4
+...

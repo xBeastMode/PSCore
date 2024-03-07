@@ -1,0 +1,32 @@
+{
+    "min": [
+        218,
+        8,
+        226
+    ],
+    "max": [
+        214,
+        4,
+        228
+    ],
+    "modes": {
+        "damage": false,
+        "edit": false,
+        "touch": false,
+        "burn": false,
+        "explode": false
+    },
+    "world": "zospawn",
+    "white_listed": [],
+    "extra_data": {
+        "portal": 1,
+        "commands": {
+            "c": [
+                "instawarp @player mine",
+                "title @player title \u00a7l\u00a76@rank",
+                "title @player subtitle \u00a7ewelcome to your mine!"
+            ],
+            "p": []
+        }
+    }
+}

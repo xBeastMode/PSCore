@@ -1,0 +1,182 @@
+---
+A:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+B:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+C:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+D:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+E:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+F:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+G:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+H:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+I:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+J:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+K:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+L:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+M:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+"N":
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+O:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+P:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+Q:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+R:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+S:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+T:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+U:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+V:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+W:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+X:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+"Y":
+  touch: true
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+Z:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+zospawn:
+  touch: true
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+pvp:
+  touch: false
+  edit: false
+  damage: true
+  burn: false
+  explode: false
+urmom:
+  touch: false
+  edit: false
+  damage: false
+  burn: false
+  explode: false
+survival:
+  touch: true
+  edit: true
+  damage: false
+  burn: true
+  explode: true
+...

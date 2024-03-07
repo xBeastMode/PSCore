@@ -1,0 +1,177 @@
+---
+#vanilla
+bane_of_arthropods: 20000
+blast_protection: 20000
+depth_strider: 20000
+efficiency: 20000
+feather_falling: 20000
+fire_protection: 20000
+fortune: 20000
+infinity: 20000
+knockback: 20000
+looting: 20000
+power: 20000
+projectile_protection: 20000
+protection: 20000
+punch: 20000
+sharpness: 20000
+smite: 20000
+thorns: 20000
+unbreaking: 20000
+fire_aspect: 5000
+aqua_affinity: 20000
+flame: 20000
+frost_walker: 20000
+impaling: 20000
+loyalty: 20000
+luck_of_sea: 20000
+lure: 20000
+mending: 20000
+multishot: 20000
+piercing: 20000
+quick_charge: 20000
+respiration: 20000
+riptide: 20000
+silk_touch: 20000
+luck_of_the_sea: 20000
+
+#ce's
+
+autorepair: 40000
+soulbound: 40000
+aerial: 40000
+backstab: 40000
+blessed: 40000
+blind: 40000
+charge: 40000
+cripple: 40000
+deathbringer: 40000
+deep_wounds: 40000
+disarming: 40000
+disarmor: 40000
+gooey: 40000
+hallucination: 40000
+lifesteal: 40000
+lightning: 40000
+lucky_charm: 40000
+poison: 40000
+vampire: 40000
+wither: 40000
+auto_aim: 40000
+blaze: 40000
+bombardment: 40000
+bounty_hunter: 40000
+grappling: 40000
+headhunter: 40000
+healing: 40000
+homing: 40000
+missile: 40000
+molotov: 40000
+paralyze: 40000
+piercing: 40000
+porkified: 40000
+shuffle: 40000
+volley: 40000
+wither_skull: 40000
+driller: 40000
+energizing: 40000
+explosive: 40000
+haste: 40000
+jackpot: 40000
+oxygenate: 40000
+quickening: 40000
+smelting: 40000
+telepathy: 40000
+lumberjack: 40000
+farmer: 40000
+fertilizer: 40000
+harvest: 40000
+molten: 40000
+enlighted: 40000
+hardened: 40000
+poisoned: 40000
+frozen: 40000
+obsidian_shield: 40000
+revulsion: 40000
+self_destruct: 40000
+cursed: 40000
+endershift: 40000
+drunk: 40000
+berserker: 40000
+cloaking: 40000
+revive: 40000
+shrink: 40000
+grow: 40000
+cactus: 40000
+anti_knockback: 40000
+forcefield: 40000
+overload: 40000
+armored: 40000
+tank: 40000
+heavy: 40000
+shielded: 40000
+poisonous_cloud: 40000
+antitoxin: 40000
+focused: 40000
+glowing: 40000
+implants: 40000
+meditation: 40000
+chicken: 40000
+enraged: 40000
+parachute: 40000
+prowl: 40000
+spider: 40000
+vacuum: 40000
+gears: 40000
+jetpack: 40000
+magma_walker: 40000
+springs: 40000
+stomp: 40000
+radar: 40000
+
+#merge
+merge_level_2: 40000
+merge_level_3: 60000
+merge_level_4: 80000
+merge_level_5: 100000
+merge_succeeding_chance: 5
+merge_xp_chance_per_level: 5
+
+apply_xp_chance_per_level: 2.5
+apply_succeeding_chance: 10
+apply_breaking_chance: 75
+
+replicate_cost: 250000
+replicate_succeeding_chance: 15
+replicate_breaking_chance: 60
+replicate_xp_chance_per_level: 3.5
+
+remove_succeeding_chance: 5
+remove_cost: 25000
+
+#shards
+replicate:
+  - name: "&r&l&7Facsimile &fDust"
+    chance: 0
+    worth: 1.5
+    glow: true
+    id: 289
+    meta: 0
+    item: "289:0:1:&r&l&7Facsimile &fDust\n&r&fdecreases book facsimile breaking chance:&r&g- used to decrease book facsimile breaking chance\n&r&g- go to &6ENCHANTER &gto use"
+apply:
+  - name: "&r&l&gAssemble &fDust"
+    chance: 0
+    worth: 2.5
+    glow: true
+    id: 348
+    meta: 0
+    item: "348:0:1:&r&l&gAssemble &fDust\n&r&fdecreases book assemble breaking chance:&r&g- used to decrease book batch breaking chance\n&r&g- go to &6ENCHANTER &gto use"
+remove:
+  - name: "&r&l&4Abstraction &fDust"
+    chance: 0
+    worth: 0.4
+    glow: true
+    id: 331
+    meta: 0
+    item: "331:0:1:&r&l&4Abstraction &fDust\n&r&fincreases chance of enchantment return on abstraction:&r&g- increases chance of enchantment return on abstraction\n&r&g- go to &6ENCHANTER &gto use"
+...

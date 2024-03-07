@@ -1,0 +1,27 @@
+{
+    "min": [
+        191,
+        39,
+        180
+    ],
+    "max": [
+        169,
+        17,
+        202
+    ],
+    "modes": {
+        "damage": false,
+        "edit": false,
+        "touch": false,
+        "burn": false,
+        "explode": false
+    },
+    "world": "Z",
+    "white_listed": [],
+    "extra_data": {
+        "mine": 1,
+        "blocks": {
+            "232:0": 100
+        }
+    }
+}

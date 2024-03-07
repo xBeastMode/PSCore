@@ -1,0 +1,31 @@
+{
+    "min": [
+        200,
+        4,
+        232
+    ],
+    "max": [
+        197,
+        8,
+        239
+    ],
+    "modes": {
+        "damage": false,
+        "edit": false,
+        "touch": false,
+        "burn": false,
+        "explode": false
+    },
+    "world": "zospawn",
+    "white_listed": [],
+    "extra_data": {
+        "portal": 1,
+        "commands": {
+            "c": [
+                "instawarp @player survival",
+                "title @player title \u00a7l\u00a74SURVIVAL"
+            ],
+            "p": []
+        }
+    }
+}

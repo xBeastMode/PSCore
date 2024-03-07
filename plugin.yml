@@ -1,0 +1,266 @@
+name: PSCore
+author: xBeastMode
+version: 1.14.0
+main: PrestigeSociety\Core\PrestigeSocietyCore
+api: 4.0.0
+startup: POSTWORLD
+
+permissions:
+   land.protector.command.p1:
+      default: op
+   land.protector.command.p2:
+      default: op
+   land.protector.command.add:
+      default: op
+   land.protector.command.mode:
+      default: op
+   land.protector.command.help:
+      default: op
+   land.protector.command.remove:
+      default: op
+   land.protector.edit.place.bypass:
+      default: op
+   land.protector.edit.break.bypass:
+      default: op
+   land.protector.touch.bypass:
+      default: op
+   land.protector.selection.2:
+      default: op
+   land.protector.selection.1:
+      default: op
+   command.eat:
+      default: op
+   command.world:
+      default: op
+   command.fly:
+      default: op
+   command.setdeaths:
+      default: op
+   command.setkills:
+      default: op
+   command.setlevel:
+      default: op
+   command.framedrop:
+      default: op
+   command.sm:
+      default: op
+   economy.command.addmoney:
+      default: op
+   economy.command.submoney:
+      default: op
+   economy.command.setmoney:
+      default: op
+   economy.command.all:
+      default: op
+   credits.command.addcredits:
+      default: op
+   credits.command.subcredits:
+      default: op
+   credits.command.setcredits:
+      default: op
+   economy.command.givecash:
+      default: op
+   credits.command.all:
+      default: op
+   command.sban:
+      default: op
+   command.ban:
+      default: op
+   sban.bypass:
+      default: op
+   command.givekey:
+      default: op
+   command.setspawn:
+      default: op
+   shop.addsign:
+      default: op
+   shop.removesign:
+      default: op
+   command.lsd:
+      default: op
+   command.removeshop:
+      default: op
+   command.addshop:
+      default: op
+   command.rankup:
+      default: op
+   command.rpp:
+      default: op
+   land.protector.command.setmine:
+      default: op
+   land.protector.command.removemine:
+      default: op
+   land.protector.command.resetmine:
+      default: op
+   land.protector.command.list:
+      default: op
+   land.protector.command.listhere:
+      default: op
+   land.protector.command.resetmine.all:
+      default: op
+   command.god:
+      default: op
+   command.addinfo:
+      default: op
+   teleport.instant:
+      default: op
+   home.instant:
+      default: op
+   spawn.instant:
+      default: op
+   warp.instant:
+      default: op
+   tpa.instant:
+      default: op
+   command.nick:
+      default: op
+   pv.infinite:
+      default: op
+   command.setrank:
+      default: op
+   crate.add:
+      default: op
+   spam.bypass:
+      default: op
+   crate.bypass:
+      default: op
+   stones.break:
+      default: op
+   stones.place:
+      default: op
+   land.protector.command.setportal:
+      default: op
+   land.protector.command.removeportal:
+      default: op
+   command.statistic:
+      default: op
+   command.restart:
+      default: op
+   command.addboss:
+      default: op
+   command.removeboss:
+      default: op
+   command.spawnboss:
+      default: op
+   command.respawnboss:
+      default: op
+   command.instantwarp:
+      default: op
+   command.warpinfo:
+      default: op
+   command.back:
+      default: op
+   command.heal:
+      default: op
+   command.hurt:
+      default: op
+   command.hide:
+      default: op
+   command.freeze:
+      default: op
+   command.hidename:
+      default: op
+   command.tpall:
+      default: op
+   command.run:
+      default: op
+   command.motion:
+      default: op
+   command.motion.others:
+      default: op
+   back.instant:
+      default: op
+   command.unlockvault:
+      default: op
+   command.ci:
+      default: op
+   command.mute:
+      default: op
+   command.unmute:
+      default: op
+   command.hat:
+      default: op
+   command.ridestick:
+      default: op
+   command.stackstick:
+      default: op
+   crate.remove:
+      default: op
+   stones.delete:
+      default: op
+   command.summon:
+      default: op
+   command.shootprojectile:
+      default: op
+   command.runcmd:
+      default: op
+   command.setonfire:
+      default: op
+   command.particles:
+      default: op
+   command.activatepowerup:
+      default: op
+   command.addpowerup:
+      default: op
+   command.toggle:
+      default: op
+   command.enchantshard:
+      default: op
+   command.cooldown.bypass:
+      default: op
+   land.protector.command.restrict:
+      default: op
+   land.protector.command.derestrict:
+      default: op
+   pv.admin:
+      default: op
+   pv.double:
+      default: op
+   command.size:
+      default: op
+   command.customitems:
+      default: op
+   command.crates:
+      default: op
+   command.openform:
+      default: op
+   command.formlist:
+         default: op
+   command.blacksmith:
+      default: op
+   command.setwarp:
+      default: op
+   command.deletewarp:
+      default: op
+   command.maxhomes:
+      default: op
+   ban.bypass:
+      default: op
+   command.recovery:
+      default: op
+   command.addzone:
+      default: op
+   command.removezone:
+      default: op
+   command.respawncrate:
+      default: op
+   command.despawncrate:
+      default: op
+   command.directions:
+      default: op
+   command.tellraw:
+      default: op
+   command.playsoundx:
+      default: op
+   command.mineresetter:
+      default: op
+   painting.nodrop:
+      default: op
+   casino.playtime.bypass:
+      default: op
+   stones.intersect.bypass:
+      default: op
+   border.bypass:
+      default: op
+   cashlock.bypass:
+      default: op

@@ -1,0 +1,39 @@
+{
+    "min": [
+        -1303,
+        249,
+        -921
+    ],
+    "max": [
+        -1619,
+        0,
+        -510
+    ],
+    "modes": {
+        "damage": true,
+        "edit": false,
+        "touch": false,
+        "burn": false,
+        "explode": false
+    },
+    "world": "pvp",
+    "white_listed": [],
+    "extra_data": {
+        "portal": 1,
+        "check_combat": 1,
+        "check_combat_message": "&l&4[!] You cannot leave this zone while in combat!",
+        "check_combat_message_damager": "&l&4[!] You were teleported because you tried to escape while in combat with &c@target",
+        "commands": {
+            "c": [
+                "title @player title \u00a7l\u00a7e<\u00a7f<\u00a7e< A >\u00a7f>\u00a7e>",
+                "title @player subtitle \u00a7l\u00a7eentered zone A"
+            ],
+            "p": []
+        },
+        "restricted_area": {
+            "action_delay": 200,
+            "title": "\u00a7l\u00a74ZONE LOCKED",
+            "subtitle": "\u00a7cleave zone or you'll die in \u00a74@seconds..."
+        }
+    }
+}

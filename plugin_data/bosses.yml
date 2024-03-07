@@ -1,0 +1,21 @@
+---
+Alcapone:
+  position:
+    - -1674
+    - 63
+    - -757
+    - pvp
+  size: 16
+  hand_item: "417:0"
+  damage: 20
+  health: 100000
+  respawn_period: 600
+  commands:
+    - "title @player title \xA7aBoss Defeated!"
+    - "crates add @player boss_rewards percent/2"
+  buffs:
+    sounds: []
+    effects: []
+  skin: alcapone.png
+  custom: true
+...

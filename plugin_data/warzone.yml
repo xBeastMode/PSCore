@@ -1,0 +1,411 @@
+---
+respawn_period: 600
+crates:
+  A:
+  - -1425
+  - 250.001
+  - -610
+  - pvp
+  C:
+  - -1737
+  - 250.001
+  - -368
+  - pvp
+  D:
+  - -1766
+  - 250.001
+  - -670
+  - pvp
+  B:
+  - -1505.7128
+  - 248.7952
+  - -315.0948
+  - pvp
+default_crate_items:
+- item: 'i$276:0:1:default:'
+  chance: 5
+- item: 'i$277:0:1:default:'
+  chance: 5
+- item: 'i$278:0:1:default:'
+  chance: 5
+- item: 'i$279:0:1:default:'
+  chance: 5
+- item: 'i$293:0:1:default:'
+  chance: 5
+- item: 'i$310:0:1:default:'
+  chance: 5
+- item: 'i$311:0:1:default:'
+  chance: 5
+- item: 'i$312:0:1:default:'
+  chance: 5
+- item: 'i$313:0:1:default:'
+  chance: 5
+- item: c$basic_crate:1:1
+  chance: 1
+- item: c$op_crate:1:1
+  chance: 0.1
+- item: c$exclusive_crate:1:1
+  chance: 0.05
+- item: c$weapon_crate:1:1
+  chance: 0.05
+- item: 'i$259:0:1:default:'
+  chance: 25
+- item: 'i$46:0:32:default:'
+  chance: 25
+- item: 'i$261:0:1:default:'
+  chance: 25
+- item: 'i$262:0:64:default:'
+  chance: 25
+- item: 'i$260:0:32:default:'
+  chance: 25
+- item: 'i$260:0:32:default:'
+  chance: 25
+- item: 'i$320:0:32:default:'
+  chance: 25
+- item: 'i$322:0:8:default:'
+  chance: 10
+- item: 'i$364:0:32:default:'
+  chance: 25
+- item: 'i$366:0:32:default:'
+  chance: 25
+- item: 'i$412:0:32:default:'
+  chance: 25
+- item: 'i$400:0:32:default:'
+  chance: 25
+- item: 'i$424:0:32:default:'
+  chance: 25
+- item: 'i$391:0:32:default:'
+  chance: 25
+- item: 'i$393:0:32:default:'
+  chance: 25
+- item: 'i$360:0:32:default:'
+  chance: 25
+- item: 'i$297:0:32:default:'
+  chance: 25
+- item: 'i$357:0:32:default:'
+  chance: 25
+- item: 'i$466:0:8:default:'
+  chance: 1
+- item: 'i$256:0:1:default:'
+  chance: 25
+- item: 'i$257:0:1:default:'
+  chance: 25
+- item: 'i$258:0:1:default:'
+  chance: 25
+- item: 'i$267:0:1:default:'
+  chance: 25
+- item: 'i$292:0:1:default:'
+  chance: 25
+- item: 'i$283:0:1:default:'
+  chance: 15
+- item: 'i$284:0:1:default:'
+  chance: 15
+- item: 'i$285:0:1:default:'
+  chance: 15
+- item: 'i$286:0:1:default:'
+  chance: 15
+- item: 'i$294:0:1:default:'
+  chance: 15
+- item: 'i$306:0:1:default:'
+  chance: 25
+- item: 'i$307:0:1:default:'
+  chance: 25
+- item: 'i$308:0:1:default:'
+  chance: 25
+- item: 'i$309:0:1:default:'
+  chance: 25
+- item: 'i$314:0:1:default:'
+  chance: 15
+- item: 'i$315:0:1:default:'
+  chance: 15
+- item: 'i$316:0:1:default:'
+  chance: 15
+- item: 'i$317:0:1:default:'
+  chance: 15
+crate_items:
+  A:
+  - item: i$276:0:1:default::sharpness:1
+    chance: 5
+  - item: i$277:0:1:default::efficiency:1
+    chance: 5
+  - item: i$278:0:1:default::efficiency:1
+    chance: 5
+  - item: i$279:0:1:default::efficiency:1
+    chance: 5
+  - item: i$293:0:1:default::efficiency:1
+    chance: 5
+  - item: i$310:0:1:default::protection:1
+    chance: 5
+  - item: i$311:0:1:default::protection:1
+    chance: 5
+  - item: i$312:0:1:default::protection:1
+    chance: 5
+  - item: i$313:0:1:default::protection:1
+    chance: 5
+  - item: c$basic_crate:1:1
+    chance: 1
+  - item: c$op_crate:1:1
+    chance: 0.1
+  - item: c$exclusive_crate:1:1
+    chance: 0.05
+  - item: c$weapon_crate:1:1
+    chance: 0.05
+  - item: 'i$259:0:1:default:'
+    chance: 25
+  - item: 'i$46:0:32:default:'
+    chance: 25
+  - item: i$261:0:1:default::power:2
+    chance: 25
+  - item: 'i$262:0:64:default:'
+    chance: 25
+  - item: i$256:0:1:default::efficiency:1
+    chance: 25
+  - item: i$257:0:1:default::efficiency:1
+    chance: 25
+  - item: i$258:0:1:default::efficiency:1
+    chance: 25
+  - item: i$267:0:1:default::sharpness:1
+    chance: 25
+  - item: i$292:0:1:default::efficiency:1
+    chance: 25
+  - item: i$283:0:1:default::sharpness:1
+    chance: 15
+  - item: i$284:0:1:default::efficiency:1
+    chance: 15
+  - item: i$285:0:1:default::efficiency:1
+    chance: 15
+  - item: i$286:0:1:default::efficiency:1
+    chance: 15
+  - item: i$294:0:1:default::efficiency:1
+    chance: 15
+  - item: i$306:0:1:default::protection:1
+    chance: 25
+  - item: i$307:0:1:default::protection:1
+    chance: 25
+  - item: i$308:0:1:default::protection:1
+    chance: 25
+  - item: i$309:0:1:default::protection:1
+    chance: 25
+  - item: i$314:0:1:default::protection:1
+    chance: 15
+  - item: i$315:0:1:default::protection:1
+    chance: 15
+  - item: i$316:0:1:default::protection:1
+    chance: 15
+  - item: i$317:0:1:default::protection:1
+    chance: 15
+  B:
+  - item: i$276:0:1:default::sharpness:2:unbreaking:1
+    chance: 10
+  - item: i$277:0:1:default::efficiency:2:unbreaking:1
+    chance: 10
+  - item: i$278:0:1:default::efficiency:2:unbreaking:1
+    chance: 10
+  - item: i$279:0:1:default::efficiency:2:unbreaking:1
+    chance: 10
+  - item: i$293:0:1:default::efficiency:2:unbreaking:1
+    chance: 10
+  - item: i$310:0:1:default::protection:2:unbreaking:1
+    chance: 10
+  - item: i$311:0:1:default::protection:2:unbreaking:1
+    chance: 10
+  - item: i$312:0:1:default::protection:2:unbreaking:1
+    chance: 10
+  - item: i$313:0:1:default::protection:2:unbreaking:1
+    chance: 10
+  - item: c$basic_crate:1:1
+    chance: 2
+  - item: c$op_crate:1:1
+    chance: 0.2
+  - item: c$exclusive_crate:1:1
+    chance: 0.1
+  - item: c$weapon_crate:1:1
+    chance: 0.1
+  - item: 'i$259:0:1:default:'
+    chance: 25
+  - item: 'i$46:0:32:default:'
+    chance: 25
+  - item: i$261:0:1:default::power:2:unbreaking:1
+    chance: 25
+  - item: 'i$262:0:64:default:'
+    chance: 25
+  - item: i$256:0:1:default::efficiency:2:unbreaking:1
+    chance: 25
+  - item: i$257:0:1:default::efficiency:2:unbreaking:1
+    chance: 25
+  - item: i$258:0:1:default::efficiency:2:unbreaking:1
+    chance: 25
+  - item: i$267:0:1:default::sharpness:2:unbreaking:1
+    chance: 25
+  - item: i$292:0:1:default::efficiency:2:unbreaking:1
+    chance: 25
+  - item: i$283:0:1:default::sharpness:2:unbreaking:1
+    chance: 15
+  - item: i$284:0:1:default::efficiency:2:unbreaking:1
+    chance: 15
+  - item: i$285:0:1:default::efficiency:2:unbreaking:1
+    chance: 15
+  - item: i$286:0:1:default::efficiency:2:unbreaking:1
+    chance: 15
+  - item: i$294:0:1:default::efficiency:2:unbreaking:1
+    chance: 15
+  - item: i$306:0:1:default::protection:2:unbreaking:1
+    chance: 25
+  - item: i$307:0:1:default::protection:2:unbreaking:1
+    chance: 25
+  - item: i$308:0:1:default::protection:2:unbreaking:1
+    chance: 25
+  - item: i$309:0:1:default::protection:2:unbreaking:1
+    chance: 25
+  - item: i$314:0:1:default::protection:2:unbreaking:1
+    chance: 15
+  - item: i$315:0:1:default::protection:2:unbreaking:1
+    chance: 15
+  - item: i$316:0:1:default::protection:2:unbreaking:1
+    chance: 15
+  - item: i$317:0:1:default::protection:2:unbreaking:1
+    chance: 15
+  C:
+  - item: i$276:0:1:default::sharpness:3:unbreaking:2
+    chance: 15
+  - item: i$277:0:1:default::efficiency:3:unbreaking:2
+    chance: 15
+  - item: i$278:0:1:default::efficiency:3:unbreaking:2
+    chance: 15
+  - item: i$279:0:1:default::efficiency:3:unbreaking:2
+    chance: 15
+  - item: i$293:0:1:default::efficiency:3:unbreaking:2
+    chance: 15
+  - item: i$310:0:1:default::protection:3:unbreaking:2
+    chance: 15
+  - item: i$311:0:1:default::protection:3:unbreaking:2
+    chance: 15
+  - item: i$312:0:1:default::protection:3:unbreaking:2
+    chance: 15
+  - item: i$313:0:1:default::protection:3:unbreaking:2
+    chance: 15
+  - item: c$basic_crate:1:1
+    chance: 4
+  - item: c$op_crate:1:1
+    chance: 0.4
+  - item: c$exclusive_crate:1:1
+    chance: 0.2
+  - item: c$weapon_crate:1:1
+    chance: 0.2
+  - item: 'i$259:0:1:default:'
+    chance: 25
+  - item: 'i$46:0:32:default:'
+    chance: 25
+  - item: i$261:0:1:default::power:3:unbreaking:2
+    chance: 25
+  - item: 'i$262:0:64:default:'
+    chance: 25
+  - item: i$256:0:1:default::efficiency:3:unbreaking:2
+    chance: 25
+  - item: i$257:0:1:default::efficiency:3:unbreaking:2:driller:1
+    chance: 25
+  - item: i$258:0:1:default::efficiency:3:unbreaking:2:driller:1
+    chance: 25
+  - item: i$267:0:1:default::sharpness:3:unbreaking:2:lifesteal:1
+    chance: 25
+  - item: i$292:0:1:default::efficiency:3:unbreaking:2
+    chance: 25
+  - item: i$283:0:1:default::sharpness:3:unbreaking:2:lifesteal:2
+    chance: 15
+  - item: i$284:0:1:default::efficiency:3:unbreaking:2
+    chance: 15
+  - item: i$285:0:1:default::efficiency:3:unbreaking:2:driller:2
+    chance: 15
+  - item: i$286:0:1:default::efficiency:3:unbreaking:2:driller:2
+    chance: 15
+  - item: i$294:0:1:default::efficiency:3:unbreaking:2
+    chance: 15
+  - item: i$306:0:1:default::protection:3:unbreaking:2
+    chance: 25
+  - item: i$307:0:1:default::protection:3:unbreaking:2
+    chance: 25
+  - item: i$308:0:1:default::protection:3:unbreaking:2
+    chance: 25
+  - item: i$309:0:1:default::protection:3:unbreaking:2
+    chance: 25
+  - item: i$314:0:1:default::protection:3:unbreaking:2
+    chance: 15
+  - item: i$315:0:1:default::protection:3:unbreaking:2
+    chance: 15
+  - item: i$316:0:1:default::protection:3:unbreaking:2
+    chance: 15
+  - item: i$317:0:1:default::protection:3:unbreaking:2
+    chance: 15
+  D:
+  - item: i$276:0:1:default::sharpness:4:unbreaking:3
+    chance: 20
+  - item: i$277:0:1:default::efficiency:4:unbreaking:3
+    chance: 20
+  - item: i$278:0:1:default::efficiency:4:unbreaking:3
+    chance: 20
+  - item: i$279:0:1:default::efficiency:4:unbreaking:3
+    chance: 20
+  - item: i$293:0:1:default::efficiency:4:unbreaking:3
+    chance: 20
+  - item: i$310:0:1:default::protection:4:unbreaking:3
+    chance: 20
+  - item: i$311:0:1:default::protection:4:unbreaking:3
+    chance: 20
+  - item: i$312:0:1:default::protection:4:unbreaking:3
+    chance: 20
+  - item: i$313:0:1:default::protection:4:unbreaking:3
+    chance: 20
+  - item: c$basic_crate:1:1
+    chance: 8
+  - item: c$op_crate:1:1
+    chance: 0.8
+  - item: c$exclusive_crate:1:1
+    chance: 0.4
+  - item: c$weapon_crate:1:1
+    chance: 0.4
+  - item: 'i$259:0:1:default:'
+    chance: 25
+  - item: 'i$46:0:32:default:'
+    chance: 25
+  - item: i$261:0:1:default::power:4:unbreaking:3
+    chance: 25
+  - item: 'i$262:0:64:default:'
+    chance: 25
+  - item: i$256:0:1:default::efficiency:4:unbreaking:3
+    chance: 25
+  - item: i$257:0:1:default::efficiency:4:unbreaking:3:driller:2
+    chance: 25
+  - item: i$258:0:1:default::efficiency:4:unbreaking:3:driller:2
+    chance: 25
+  - item: i$267:0:1:default::sharpness:4:unbreaking:3:lifesteal:2
+    chance: 25
+  - item: i$292:0:1:default::efficiency:4:unbreaking:3
+    chance: 25
+  - item: i$283:0:1:default::sharpness:4:unbreaking:3:lifesteal:3
+    chance: 15
+  - item: i$284:0:1:default::efficiency:4:unbreaking:3
+    chance: 15
+  - item: i$285:0:1:default::efficiency:4:unbreaking:3:driller:3
+    chance: 15
+  - item: i$286:0:1:default::efficiency:4:unbreaking:3:driller:3
+    chance: 15
+  - item: i$294:0:1:default::efficiency:4:unbreaking:3
+    chance: 15
+  - item: i$306:0:1:default::protection:4:unbreaking:3
+    chance: 25
+  - item: i$307:0:1:default::protection:4:unbreaking:3
+    chance: 25
+  - item: i$308:0:1:default::protection:4:unbreaking:3
+    chance: 25
+  - item: i$309:0:1:default::protection:4:unbreaking:3
+    chance: 25
+  - item: i$314:0:1:default::protection:4:unbreaking:3
+    chance: 15
+  - item: i$315:0:1:default::protection:4:unbreaking:3
+    chance: 15
+  - item: i$316:0:1:default::protection:4:unbreaking:3
+    chance: 15
+  - item: i$317:0:1:default::protection:4:unbreaking:3
+    chance: 15
+outpost: []
+...

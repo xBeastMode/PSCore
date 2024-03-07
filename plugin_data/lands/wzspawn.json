@@ -1,0 +1,22 @@
+{
+    "min": [
+        -1624,
+        61,
+        -505
+    ],
+    "max": [
+        -1616,
+        67,
+        -513
+    ],
+    "modes": {
+        "damage": false,
+        "edit": false,
+        "touch": false,
+        "burn": false,
+        "explode": false
+    },
+    "world": "pvp",
+    "white_listed": [],
+    "extra_data": []
+}

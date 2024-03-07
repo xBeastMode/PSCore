@@ -1,0 +1,132 @@
+---
+A:
+   price: 0
+   commands:
+      - "setuperm @player warp.A"
+      - "instawarp @player spawn"
+B:
+   price: 7500 
+   commands:
+      - "setuperm @player warp.B"
+      - "instawarp @player spawn"
+C:
+   price: 15100
+   commands:
+      - "setuperm @player warp.C"
+      - "instawarp @player spawn"
+D:
+   price: 25500
+   commands:
+      - "setuperm @player warp.D"
+      - "instawarp @player spawn"
+E:
+   price: 38300
+   commands:
+      - "setuperm @player warp.E"
+      - "instawarp @player spawn"
+F:
+   price: 53600
+   commands:
+      - "setuperm @player warp.F"
+      - "instawarp @player spawn"
+G:
+   price: 71700
+   commands:
+      - "setuperm @player warp.G"
+      - "instawarp @player spawn"
+H:
+   price: 92300
+   commands:
+      - "setuperm @player warp.H"
+      - "instawarp @player spawn"
+I:
+   price: 115500
+   commands:
+      - "setuperm @player warp.I"
+      - "instawarp @player spawn"
+J:
+   price: 141300
+   commands:
+      - "setuperm @player warp.J"
+      - "instawarp @player spawn"
+K:
+   price: 169700
+   commands:
+      - "setuperm @player warp.K"
+      - "instawarp @player spawn"
+L:
+   price: 200700
+   commands:
+      - "setuperm @player warp.L"
+      - "instawarp @player spawn"
+M:
+   price: 234300
+   commands:
+      - "setuperm @player warp.M"
+      - "instawarp @player spawn"
+"N":
+   price: 270500
+   commands:
+      - "setuperm @player warp.N"
+      - "instawarp @player spawn"
+O:
+   price: 309500
+   commands:
+      - "setuperm @player warp.O"
+      - "instawarp @player spawn"
+P:
+   price: 351000
+   commands:
+      - "setuperm @player warp.P"
+      - "instawarp @player spawn"
+Q:
+   price: 394700
+   commands:
+      - "setuperm @player warp.Q"
+      - "instawarp @player spawn"
+R:
+   price: 441300
+   commands:
+      - "setuperm @player warp.R"
+      - "instawarp @player spawn"
+S:
+   price: 501500
+   commands:
+      - "setuperm @player warp.S"
+      - "instawarp @player spawn"
+T:
+   price: 565000
+   commands:
+      - "setuperm @player warp.T"
+      - "instawarp @player spawn"
+U:
+   price: 635400
+   commands:
+      - "setuperm @player warp.U"
+      - "instawarp @player spawn"
+V:
+   price: 705600
+   commands:
+      - "setuperm @player warp.V"
+      - "instawarp @player spawn"
+W:
+   price: 790000
+   commands:
+      - "setuperm @player warp.W"
+      - "instawarp @player spawn"
+X:
+   price: 875000
+   commands:
+      - "setuperm @player warp.X"
+      - "instawarp @player spawn"
+"Y":
+   price: 995500
+   commands:
+      - "setuperm @player warp.Y"
+      - "instawarp @player spawn"
+Z:
+   price: 1250000
+   commands:
+      - "setuperm @player warp.Z"
+      - "instawarp @player spawn"
+...

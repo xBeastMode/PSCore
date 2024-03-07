@@ -1,0 +1,49 @@
+global_commands:
+  - setprank @player A
+  - instawarp @player spawn
+  - setmoney @player 0
+1:
+  required_rank: "Z"
+  commands: []
+2:
+  required_rank: "Z"
+  commands:
+  - setuperm @player portal.wzb
+  - addcredits @player 2
+  - tellraw @player &l&2[!] &aYou've unlocked zone B at warzone!
+3:
+  required_rank: "Z"
+  commands:
+  - addcredits @player 2
+4:
+  required_rank: "Z"
+  commands:
+  - setuperm @player portal.wzc
+  - addcredits @player 2
+  - tellraw @player &l&2[!] &aYou've unlocked zone C at warzone!
+5:
+  required_rank: "Z"
+  commands:
+  - addcredits @player 2
+6:
+  required_rank: "Z"
+  commands:
+  - addcredits @player 2
+7:
+  required_rank: "Z"
+  commands:
+  - addcredits @player 2
+8:
+  required_rank: "Z"
+  commands:
+  - setuperm @player portal.wzd
+  - addcredits @player 2
+  - tellraw @player &l&2[!] &aYou've unlocked zone D at warzone!
+9:
+  required_rank: "Z"
+  commands:
+  - addcredits @player 2
+10:
+  required_rank: "Z"
+  commands:
+  - addcredits @player 2
